@@ -1,17 +1,22 @@
 import React from 'react'
 import "./Box.css"
+// import { LuSettings2 } from "react-icons/lu";
+// import { BiChevronDown } from "react-icons/bi";
+import { VscChevronDown } from "react-icons/vsc";
+
 
 export const Box = () => {
   return (
     <div className='box' >
         {/* ref={componentRef} */}
-    <div className='box-container'>
+    <div className='box-label-container'>
         {/*  onClick={openDropdown} */}
       {/* <LuSettings2 color='#6b6f76' /> */}
       <div className='box-label'>Display</div>
       {/* <BiChevronDown color='#6b6f76' /> */}
+      <VscChevronDown color='#6b6f76' />
     </div>
-    <div className={`box-content-container  `}>
+    <div className={`box-content-container`}>
         {/* ${visible && "visible"} */}
       <div className='box-content-row'>
         <div className='box-content-label'>Grouping</div>
