@@ -1,4 +1,5 @@
 import React from 'react'
+import "./UserIcon.css"
 
 export const UserIcon = ({ name, available }) =>{
     const text = React.useMemo(() => {
